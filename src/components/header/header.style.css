@@ -1,0 +1,28 @@
+header {
+  background: #292929;
+  /* height: 140px; */
+  padding: 40px 77px;
+}
+header img {
+  max-width: 193px;
+  height: 60px;
+  width: 100%;
+}
+
+@media (max-width: 834px) {
+  header {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    padding: 0;
+    height: 67px;
+  }
+  header img {
+    max-width: 108px;
+    height: 33.58px;
+  }
+}

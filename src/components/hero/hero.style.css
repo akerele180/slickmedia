@@ -1,0 +1,57 @@
+main {
+  background-image: url(../../assets/images/Rectangle5.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 550px;
+}
+main img {
+  width: 100%;
+  height: 100%;
+}
+main h1 {
+  position: absolute; 
+  height: fit-content;
+  color: #ffffff;
+  left: 77px;
+  top: 109px;
+  font-weight: 700;
+  font-size: 72px;
+  z-index: 2;
+  letter-spacing: -0.05em;
+}
+span.one,
+span.two {
+  display: block;
+}
+
+@media (max-width: 834px) {
+  main h1 {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  span.one,
+  span.two {
+    display: block;
+  }
+}
+
+@media (max-width: 320px) {
+  main {
+    height: 257px;
+  }
+  main h1 {
+    font-size: 28px;
+    width: 100%;
+  }
+  span.one,
+  span.two {
+    display: inline;
+  }
+  span.three {
+    display: block;
+  }
+}
