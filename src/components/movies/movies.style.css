@@ -1,0 +1,12 @@
+section.movies {
+  padding: 63px 77px;
+}
+h2 {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 320px){
+  section.movies {
+  padding: 56px 28px 50px;
+}
+}

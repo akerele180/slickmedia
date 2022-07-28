@@ -1,0 +1,9 @@
+div.movies-list {
+  display: flex;
+  /* position: relative; */
+  gap: 13px;
+  overflow-x: scroll;
+  /* overflow-y: hidden; */
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
